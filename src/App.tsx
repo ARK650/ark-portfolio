@@ -1,3 +1,15 @@
+/**
+ * ARK Portfolio - Main Application Component
+ * 
+ * Copyright (c) 2025 ARK650
+ * Licensed under MIT License with Attribution Requirement
+ * 
+ * This file is part of ARK Portfolio, a modern interactive portfolio website.
+ * Original repository: https://github.com/ARK650/ark-portfolio
+ * 
+ * You may use this code with proper attribution. See LICENSE file for details.
+ */
+
 // @ts-nocheck
 /**
  * MAIN APPLICATION COMPONENT - App.tsx

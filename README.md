@@ -1,4 +1,3 @@
-
 # 🚀 ARK Portfolio
 
 A modern, interactive portfolio website built with React, TypeScript, and Framer Motion. This portfolio showcases my projects, skills, and experience through a smooth, animated single-page application with scroll-based transitions and theme switching.
@@ -8,6 +7,8 @@ A modern, interactive portfolio website built with React, TypeScript, and Framer
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0.2-blue)
 ![Vite](https://img.shields.io/badge/Vite-4.4.5-purple)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.0-cyan)
+
+## 🌐 **Live Demo**: [https://ark650.github.io/ark-portfolio/](https://ark650.github.io/ark-portfolio/)
 
 ## ✨ Features
 
@@ -29,17 +30,20 @@ A modern, interactive portfolio website built with React, TypeScript, and Framer
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **React 18** - Modern UI library with hooks
 - **TypeScript** - Type-safe JavaScript
 - **Vite** - Fast build tool and dev server
 - **Framer Motion** - Smooth animations and transitions
 
 ### Styling
+
 - **Tailwind CSS** - Utility-first CSS framework
 - **PostCSS** - CSS preprocessing
 - **Custom Gradients** - Dynamic background transitions
 
 ### Development Tools
+
 - **ESLint** - Code linting
 - **Prettier** - Code formatting
 - **VS Code** - Development environment
@@ -47,6 +51,7 @@ A modern, interactive portfolio website built with React, TypeScript, and Framer
 ## 🚀 Quick Start
 
 ### Prerequisites
+
 - Node.js (v18 or higher)
 - npm or yarn package manager
 - Git
@@ -54,12 +59,14 @@ A modern, interactive portfolio website built with React, TypeScript, and Framer
 ### Installation
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/ARK650/ark-portfolio.git
    cd ark-portfolio
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    # or
@@ -67,6 +74,7 @@ A modern, interactive portfolio website built with React, TypeScript, and Framer
    ```
 
 3. **Start development server**
+
    ```bash
    npm run dev
    # or
@@ -125,21 +133,25 @@ ark-portfolio/
 ## 🎨 Customization
 
 ### Adding New Sections
+
 1. Create a new component in `src/components/`
 2. Import and add it to `App.tsx`
 3. Update scroll progress mapping for proper transitions
 
 ### Modifying Animations
+
 - Edit Framer Motion props in component files
 - Adjust scroll-based animations in `App.tsx`
 - Customize timing and easing functions
 
 ### Changing Themes
+
 - Update color schemes in `tailwind.config.js`
 - Modify theme variables in `ThemeProvider.tsx`
 - Add new gradient combinations in background transitions
 
 ### Performance Tips
+
 - Use `transform` for animations (GPU accelerated)
 - Implement lazy loading for heavy components
 - Optimize images and assets
@@ -163,7 +175,31 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License with Attribution Requirement - see the [LICENSE](LICENSE) file for details.
+
+### 🚨 **Important Usage Notice**
+
+**This portfolio represents original creative work and significant development effort.**
+
+#### ✅ **What's Allowed:**
+- ✅ View and study the code for learning purposes
+- ✅ Use as inspiration for your own unique portfolio design
+- ✅ Fork and contribute improvements
+- ✅ Use individual components with proper attribution
+
+#### ❌ **What's NOT Allowed:**
+- ❌ Direct copying without attribution
+- ❌ Claiming the design/architecture as your own work
+- ❌ Using this as a template without giving credit
+- ❌ Removing copyright notices
+
+#### 📋 **If You Use This Code:**
+1. **Give Credit**: Mention ARK650 as the original author
+2. **Link Back**: Provide a link to this repository
+3. **Note Changes**: Indicate what modifications you made
+4. **Be Original**: Create your own unique content and design elements
+
+**For questions about usage rights, contact: cark98@gmail.com**
 
 ## 📧 Contact
 
@@ -181,4 +217,3 @@ Project Link: [https://github.com/ARK650/ark-portfolio](https://github.com/ARK65
 ---
 
 ⭐ **Star this repository if you found it helpful!**
-  
