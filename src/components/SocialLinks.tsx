@@ -7,21 +7,21 @@ const SocialLinks = () => {
     {
       name: "GitHub",
       icon: Github,
-      url: "https://github.com/ark", // Replace with your actual GitHub
+      url: "https://github.com/ARK650",
       color: "#333",
       hoverColor: "#24292e",
     },
     {
       name: "Instagram",
       icon: Instagram,
-      url: "https://instagram.com/ark", // Replace with your actual Instagram
+      url: "https://www.instagram.com/ark_zl1",
       color: "#E4405F",
       hoverColor: "#C13584",
     },
     {
       name: "Twitch",
       icon: Twitch,
-      url: "https://twitch.tv/ark", // Replace with your actual Twitch
+      url: "https://www.twitch.tv/garagejournaltv",
       color: "#9146FF",
       hoverColor: "#772CE8",
     },
@@ -29,7 +29,7 @@ const SocialLinks = () => {
 
   return (
     <motion.div
-      className="fixed bottom-6 left-6 z-50 flex flex-col space-y-3"
+      className="fixed bottom-6 left-6 z-50 flex flex-col space-y-4"
       initial={{ opacity: 0, x: -50 }}
       animate={{ opacity: 1, x: 0 }}
       transition={{ delay: 2, duration: 0.8, staggerChildren: 0.1 }}
@@ -40,14 +40,14 @@ const SocialLinks = () => {
           href={social.url}
           target="_blank"
           rel="noopener noreferrer"
-          className="w-12 h-12 rounded-full bg-white/90 dark:bg-black/90 shadow-lg border-2 border-white/50 dark:border-neutral-800/50 flex items-center justify-center transition-all duration-300 hover:shadow-xl group"
+          className="relative w-14 h-14 rounded-full bg-white/90 dark:bg-black/90 shadow-lg border-2 border-white/50 dark:border-neutral-800/50 flex items-center justify-center transition-all duration-300 hover:shadow-xl group cursor-pointer"
           style={
             {
               "--hover-color": social.hoverColor,
             } as React.CSSProperties
           }
           whileHover={{
-            scale: 1.1,
+            scale: 1.15,
             rotate: [0, -10, 10, 0],
             backgroundColor: social.hoverColor + "20",
           }}
@@ -120,12 +120,13 @@ const SocialLinks = () => {
 
           {/* Tooltip */}
           <motion.div
-            className="absolute left-full ml-3 px-2 py-1 bg-gray-900 dark:bg-white text-white dark:text-black text-xs rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap"
-            initial={{ x: -10 }}
-            whileHover={{ x: 0 }}
+            className="absolute left-full ml-4 px-3 py-2 bg-gray-900 dark:bg-white text-white dark:text-black text-sm rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200 whitespace-nowrap pointer-events-none z-60"
+            initial={{ x: -10, opacity: 0 }}
+            whileHover={{ x: 0, opacity: 1 }}
+            style={{ top: '50%', transform: 'translateY(-50%)' }}
           >
             {social.name}
-            <div className="absolute left-0 top-1/2 transform -translate-x-1 -translate-y-1/2 w-0 h-0 border-t-2 border-b-2 border-r-4 border-transparent border-r-gray-900 dark:border-r-white"></div>
+            <div className="absolute left-0 top-1/2 transform -translate-x-1 -translate-y-1/2 w-0 h-0 border-t-4 border-b-4 border-r-6 border-transparent border-r-gray-900 dark:border-r-white"></div>
           </motion.div>
         </motion.a>
       ))}
